@@ -61,9 +61,18 @@ public class javaBasic {
         // }
 
         //TERNIARY OPERATOR 
-        int age = sc.nextInt();
-        String condition = (age<18)?"Your can't vote":"you can vote";
-        System.out.println(condition);
+        // int age = sc.nextInt();
+        // String condition = (age<18)?"Your can't vote":"you can vote";
+        // System.out.println(condition);
+        
+        //CHECK WEATHER A STUDENT PASS OR FAIL BY TERNIRARY OPERATOR???????????
+
+        // int marks = sc.nextInt();
+        // String status = (marks<33)?"Fail":"Pass";
+        // System.out.println(status);
+
+
+
         
 
     }

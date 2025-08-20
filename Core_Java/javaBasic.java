@@ -33,9 +33,14 @@ public class javaBasic{
         // int final_temp = tem +273;
         // System.out.println(final_temp);
 
-        int temp = sc.nextInt();
-        float formula = 9/2;
-        float final_temp = ( temp *formula)+32;
-        System.out.println(final_temp);
+        // int temp = sc.nextInt();
+        // float formula = 9/2;
+        // float final_temp = ( temp *formula)+32;
+        // System.out.println(final_temp);
+
+        int a = 10 ;
+        a +=5;
+        System.out.println(a);
+        
 }
 }
