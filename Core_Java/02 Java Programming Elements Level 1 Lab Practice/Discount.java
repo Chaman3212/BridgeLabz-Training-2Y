@@ -1,5 +1,5 @@
-public import java.util.Scanner;
-class FeeDiscountInput {
+import java.util.Scanner;
+public class Discunt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double fee = input.nextDouble();

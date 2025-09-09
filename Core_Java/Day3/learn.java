@@ -5,14 +5,23 @@ public class learn {
         Scanner sc = new Scanner(System.in);
         // for (int i = 4;i>=1;i--){
         //     for(int j=0;j<i;j++){    
-        //         System.out.print(j);
+        //         System.out.print("*");
         //     }
         //     System.out.println(" ");
         // } 
 
-        char a = 'a';
-        char b = (int)a+1;
-        System.out.println(b);
+        // int marks[]= {1,2,4,4};
+        // for(int i = 0;i<4;i++){
+        //     System.out.println("Enter the value: ");
+        //     marks[i] = sc.nextInt();
+        // };
+        // System.out.println("length of arr" + marks.length);
+    
+
+        //ARRAY AS A FUNCITON ARGUMENT??????
+        
+        
+      
         
     }
     
