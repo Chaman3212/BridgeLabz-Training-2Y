@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class HeightsUtility {
 
-    // Generate random height between 150 and 250
     public static int getRandomHeight() {
         Random random = new Random();
         return random.nextInt(101) + 150;  // 150 to 250
