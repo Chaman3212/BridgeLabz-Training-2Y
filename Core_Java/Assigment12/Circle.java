@@ -1,0 +1,32 @@
+package Assigment12;
+
+package com.bridgelabz.oops.levelone;
+
+class Circle {
+    private double radius;
+
+    // Default constructor
+    public Circle() {
+        this(1.0); // constructor chaining
+    }
+
+    // Parameterized constructor
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public void display() {
+        System.out.println("Radius: " + radius);
+        System.out.println("Area: " + (Math.PI * radius * radius));
+    }
+
+    public static void main(String[] args) {
+        Circle c1 = new Circle();
+        Circle c2 = new Circle(5.5);
+
+        c1.display();
+        System.out.println();
+        c2.display();
+    }
+}
+
